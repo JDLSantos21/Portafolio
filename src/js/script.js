@@ -21,3 +21,14 @@ const typed = new Typed('.typed', {
 
 });
 
+
+
+const aboutBox = document.getElementById('about-box');
+
+aboutBox.addEventListener('click', function(){
+	
+const subBox = document.getElementById('sub-box');
+
+subBox.classList.toggle('active-aparece');
+
+})
